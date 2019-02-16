@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.Home {
+    background: url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.LogoNavbar {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.LogoNavbar li {
+    overflow: hidden;
+    float: left;
+}
+  
+.LogoNavbar li a {
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.LogoNavbar li a:hover {
+      text-decoration: none;
+      color: slateblue;
+}
+
+.MobMenu {
+    display: none;
+}
+
+
+.MobMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 812px) {
+    .LogoNavbar img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .LogoNavbar img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+    .MobMenu {
+        overflow: hidden;
+    }
+
+    .collapse {
+        top: -20;
+    }
+
+    .p-4 {
+        top: 0;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .LogoNavbar {
+        display: none;
+    }
+
+    .MobMenu {
+        height: 100vh;
+        display: inline;
+        color: #fff;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .MobMenu button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .MobMenu a {
+        color: #fff;
+    }
+
+    .MobMenu a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .MobMenu button i {
+        color: #000;
+        overflow: hidden;
+    }
+
+    .navbar-collapse {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .MobMenu nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .MobMenu nav span i {
+        color: #fff;
+    }
+}
+
+/* Agence */
+.Bio {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.Bio .Person1 .Person1Img {
+    margin-left: 60px;
+}
+
+.CV {
+    width: 800px;
+}
+
+.Bio2 {
+    margin-left: auto;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.Bio2 .CV {
+    margin-left: auto;
+}
+
+.Bio2 .Person2 {
+    margin-left: auto;
+}
+
+.Bio2 .Person2 .Person2Img {
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.Bio2 .Person2Mob {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
+.text {
+    margin-top: 100px;
+    padding: 0 20px 0 60px;
+}
+
+.text p {
+    color: #1c2230;
+    font-size: 1.2em;
+}
+
+.AgenceImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AgenceImages div {
+    margin-top: 20px;
+}
+
+.AgenceImages div img {
+    bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.SiteWebPar {
+    top: 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.SiteWebPar div p {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        margin-left: 10px;
+        padding: 10px;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .text p {
+        color: #1c2230;
+        font-size: 1em;
+    }
+
+    .Bio {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .Bio .Person1 .Person1Img {
+        margin: 0;
+    }
+    .CV {
+        width: auto;
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .Bio2 {
+        grid-template-columns: 1fr;
+    }
+
+    .Bio2 .Person2 .Person2Img {
+        display: none;
+    }
+
+    .Bio2 .Person2Mob {
+        display: inline;
+    }
+
+    hr {
+        display: block;
+        border-top: 1px dashed black;
+    }
+
+    .AgenceImages {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .AgenceImages div img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .SiteWebPar {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+        background: rgb(240, 240, 240);
+    }
+
+    .SiteWebPar div p {
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .zedimg {
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
