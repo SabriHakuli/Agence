@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .Images div {
         width: 95%;
-        margin: 10px 10px;
+        margin: 40px 10px;
     }
 
     .Images div img {
@@ -214,6 +214,11 @@ h1, h2, h3, h4, h5, h6 {
     .text p {
         color: #1c2230;
         font-size: 1em;
+    }
+
+
+    .Images div h6 {
+        position: absolute;
     }
 
     .SiteWebPar {
