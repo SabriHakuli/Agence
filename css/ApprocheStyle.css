@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow: hidden;
+}
+
+.LogoNavbar {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.LogoNavbar li {
+    overflow: hidden;
+    float: left;
+}
+  
+.LogoNavbar li a {
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.LogoNavbar li a:hover {
+      text-decoration: none;
+      color: slateblue;
+}
+
+.MobMenu {
+    display: none;
+}
+
+
+.MobMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 812px) {
+    .LogoNavbar img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .LogoNavbar img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+    .MobMenu {
+        overflow: hidden;
+    }
+
+    .collapse {
+        top: -20;
+    }
+
+    .p-4 {
+        top: 0;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        color: #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .p-4 a li {
+        color: #000;
+    }
+
+    .LogoNavbar {
+        display: none;
+    }
+
+    .MobMenu {
+        height: 100vh;
+        display: inline;
+        color: #fff;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .MobMenu button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .MobMenu a {
+        color: #fff;
+    }
+
+    .MobMenu a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .MobMenu button i {
+        color: #000;
+        overflow: hidden;
+    }
+
+    .navbar-collapse {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .MobMenu nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .MobMenu nav span i {
+        color: #fff;
+    }
+}
+
+/* Approche */
+
+.text {
+    margin-top: 100px;
+    padding: 0 100px 0 100px;
+}
+
+.text p {
+    color: #1c2230;
+    font-size: 1.2em;
+}
+
+.Image1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.SiteWebPar {
+    top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.SiteWebPar div p {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        margin-left: 10px;
+        padding: 10px;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .text p {
+        color: #1c2230;
+        font-size: 1em;
+    }
+
+    .SiteWebPar {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+        background: rgb(240, 240, 240);
+    }
+
+    .SiteWebPar div p {
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .zedimg {
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
