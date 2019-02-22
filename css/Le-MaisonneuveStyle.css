@@ -96,6 +96,16 @@
 
     .MobMenu button i {
         color: #fff;
+        overflow: hidden;
+    }
+
+    .MobMenu a {
+        color: #fff;
+    }
+
+    .MobMenu a:hover {
+        text-decoration: none;
+        color: #fff;
     }
 
     .navbar-collapse {
