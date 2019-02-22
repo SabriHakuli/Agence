@@ -20,6 +20,19 @@
     -o-background-size: cover;
 }
 
+.Section1Lake {
+    height: 100vh;
+    background: url(../img/Architecture/02-LakeSideStadiumChargéeDeprojetFIRMEEXTERNE/00-images\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .LogoNavbar {
     overflow: hidden;

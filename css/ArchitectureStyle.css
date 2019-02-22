@@ -152,15 +152,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .Images div{
-    width: 90%;
-    height: 60%;
     overflow: hidden;
-    margin: 40px 40px;
+    margin: 40px 20px;
     color: #000;
-}
-
-.Images div h6 {
-    z-index: 1;
 }
 
 .Images div img {
