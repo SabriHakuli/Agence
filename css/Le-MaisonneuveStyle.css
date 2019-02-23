@@ -46,6 +46,148 @@
     -o-background-size: cover;
 }
 
+.Section1SecondCup {
+    height: 100vh;
+    background: url(../img/Architecture/05-CaféSecondCupetGourmandd_ici/00\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1TourDesPins {
+    height: 100vh;
+    background: url(../img/Architecture/08-CorridorEtPH1desPins/00\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Tulipane {
+    height: 100vh;
+    background: url(../img/Architecture/09-MaisonTulipe/00\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Mozart {
+    height: 100vh;
+    background: url(../img/Architecture/10-LeMozart/00\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Restaurant {
+    height: 100vh;
+    background: url(../img/Architecture/11-RestoXVIXVI/00\(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Central {
+    height: 100vh;
+    background: url(../img/Architecture/12-LeCentralChargédeprojetFIRMEEXTERNE/00big.jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Parc {
+    height: 100vh;
+    background: url(../img/Architecture/13-LeParc/00-lobby\ \(big\).JPG);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Residence {
+    height: 100vh;
+    background: url(../img/Architecture/15-MaisonCoteSte-Cath/01\(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Drummond {
+    height: 100vh;
+    background: url(../img/Architecture/18-LeDrummond/01\ \(big\).jpg);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1RésidenceGlendale {
+    height: 100vh;
+    background: url(../img/Architecture/20-MaisonGlendale/01\ \(Big\).JPG);
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Section1Moulin {
+    height: 100vh;
+    background: url(../img/Architecture/22-MaisonMontéeDuMoulin/01\(big\).JPG
+    background-size: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 500px #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 .LogoNavbar {
     overflow: hidden;
@@ -187,7 +329,6 @@
 .Section3 div {
     margin: 0;
     margin-top: 20px;
-    width: 100%;
 }
 
 .Section3 div img {
