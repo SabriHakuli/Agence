@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .Images div img {
     width: 100%;
+    height: 250px;
 }
 
 .Images a {
@@ -205,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .Images div img {
         width: 100%;
+        height: auto;
     }
 
     .text {

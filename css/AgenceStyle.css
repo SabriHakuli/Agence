@@ -157,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .CV {
     width: 800px;
+    margin-left: -70px;
 }
 
 .Bio2 {
@@ -168,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .Bio2 .CV {
     margin-left: auto;
+    margin-right: -70px;
 }
 
 .Bio2 .Person2 {
